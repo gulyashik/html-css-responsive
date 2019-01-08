@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+html {
+  height: 100%;
+}
+body{
+  background-image: url(Pictures/Background.png);
+  background-position: center;
+	background-size: auto 100%;
+  display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	max-width: 800px;
+	min-height: 600px;
+	margin: auto;
+	text-transform: uppercase;
+  padding: 15px 0;
+}
+ 
+   .wraper{
+     max-height: 1280px;
+     max-width: 617px;
+     margin: 0 auto;
+     height: 100%;
+     padding: 0 5px;
+     overflow: hidden;
+   }
+
+   .profit{
+     background: #232924;
+     padding: 15px 0;
+   }
+   .row{
+  
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap; 
+   }
+   .item{
+    line-height: 100px;
+     text-align: center;
+     margin: 0px;
+     flex-basis: 205px;
+     height: 205px;
+     background: #999;
+   }
+   .min_item{
+      width: inherit;
+      height: 50%;
+   }
+   .subtitle{
+     color:#fff;
+     font-size: 1.5rem;
+     margin: 3px 0;
+   }
+   .row1_data1{
+    background-color: #00c0e2;
+  }
+  
+  .row1_data2{
+    background-color: #5ad998;
+  }
+  .row1_data3{
+    background-color: #7558f8;
+  }
+  .row2_data1{
+    background-color: #e9c14d;
+    
+  }
+  .row2_data2_1{
+    background-color: #e55679;
+  }
+  .row2_data2_2{
+    background-color: #cb4c6c;
+   
+  }
+  .row2_data3{
+    background-color: #cb70d7;
+   
+  }
+  img{
+    vertical-align: middle;
+
+  }
